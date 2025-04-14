@@ -23,15 +23,15 @@ Sebuah mini-proyek berbasis **FastAPI** yang dapat memprediksi kemungkinan **pen
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/namamu/titanic-fastapi.git
+git clone https://github.com/Daivageralda/titanic-fastapi.git
 cd titanic-fastapi
 ```
 
 ### 2. Buat Virtual Environment
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+python -m venv .env
+source .env/bin/activate  # Command Prompt: .env\Scripts\activate
 ```
 
 ### 3. Install Dependensi
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### 4. Jalankan API
 
 ```bash
-uvicorn main:app --reload
+fastapi dev
 ```
 
 ### 5. Akses Swagger UI
